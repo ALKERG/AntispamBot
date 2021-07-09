@@ -1,11 +1,7 @@
 from discord.ext import commands
 from datetime import datetime
 from urllib import parse, request
-from pytz import timezone
-import os
-import time
 import asyncio
-import datetime
 import discord
 from keep_alive import keep_alive
 
