@@ -1,5 +1,5 @@
 # AntispamBot
-A discord antispam bot created in python
+Description: A discord antispam bot created in python
 
 # Requirements
 First you must install the dependencies from the command console.
