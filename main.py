@@ -2,7 +2,6 @@ from discord.ext import commands
 from urllib import parse, request
 import asyncio
 import discord
-from keep_alive import keep_alive
 
 whitelist = [] #They will not be muted
 
@@ -61,5 +60,4 @@ async def on_message(message):
 
     await bot.process_commands(message)
 
-keep_alive()
 bot.run("DISCORD_TOKEN")
