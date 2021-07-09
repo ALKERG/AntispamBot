@@ -7,7 +7,6 @@ import time
 import asyncio
 import datetime
 import discord
-import random
 from keep_alive import keep_alive
 
 whitelist = [] #They will not be muted
