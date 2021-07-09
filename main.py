@@ -1,5 +1,4 @@
 from discord.ext import commands
-from datetime import datetime
 from urllib import parse, request
 import asyncio
 import discord
