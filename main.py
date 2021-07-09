@@ -10,7 +10,7 @@ import discord
 import random
 from keep_alive import keep_alive
 
-whitelist = []
+whitelist = [] #They will not be muted
 
 bot = commands.Bot(command_prefix ='$',description = "I'm an antispam bot")
 
