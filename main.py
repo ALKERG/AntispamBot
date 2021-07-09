@@ -10,13 +10,13 @@ import discord
 import random
 from keep_alive import keep_alive
 
-whitelist = ["717153131170889740"]
+whitelist = []
 
 bot = commands.Bot(command_prefix ='$',description = "I'm an antispam bot")
 
 @bot.event
 async def on_ready():
-    print("AntiSpamBot esta listo") 
+    print("AntiSpamBot is ready") 
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="your messages"))
 
 
