@@ -4,7 +4,7 @@ A discord antispam bot created in python.
 # Requirements
 First you must install the dependencies from the command console.
 ```
-pip install discord , discord.py
+pip install discord
 pip install discord.py
 ```
 
